@@ -31,7 +31,7 @@ onMounted(() =>{
   <div class="Calculator">
   <form>
 <div class="display">
-  <input type="text" class="screen" v-model="value"  >
+  <input type="text" class="screen" v-model="value" readonly >
 </div>
 <div class=" buttons">
 <div class="number">
